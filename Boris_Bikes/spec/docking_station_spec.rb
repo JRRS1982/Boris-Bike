@@ -28,4 +28,10 @@ describe DockingStation do
     bike = Bike.new
     expect(subject.dock(bike)).to eq(bike)
   end
+
+  it 'retuns a bike from the bike method' do
+    bike = Bike.new
+    subject.dock(bike)
+    expect(subject.bike).to eq(bike)
+  end
 end

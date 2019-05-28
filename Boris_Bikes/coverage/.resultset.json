@@ -48,23 +48,28 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/Jeremyrrsmith/Coding-Projects/Makers Academy/Week 1/Boris_Bikes/Boris_Bikes/lib/docking_station.rb": [
         1,
         1,
+        null,
+        1,
         2,
         null,
         null,
         1,
-        1,
-        null,
-        null,
-        1,
+        2,
         null,
         null
       ]
     },
-    "timestamp": 1559073209
+    "timestamp": 1559074169
   }
 }
