@@ -1,0 +1,44 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Jeremyrrsmith/Coding-Projects/Makers Academy/Week 1/Boris_Bikes/Boris_Bikes/spec/bike_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Jeremyrrsmith/Coding-Projects/Makers Academy/Week 1/Boris_Bikes/Boris_Bikes/lib/bike.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Jeremyrrsmith/Coding-Projects/Makers Academy/Week 1/Boris_Bikes/Boris_Bikes/spec/docking_station_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Jeremyrrsmith/Coding-Projects/Makers Academy/Week 1/Boris_Bikes/Boris_Bikes/lib/docking_station.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1559059680
+  }
+}
