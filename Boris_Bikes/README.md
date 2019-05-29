@@ -40,6 +40,10 @@ As a lover of bicycles,
 so that i am not charged unneccsessarily,
 I dont want to be given a bike if there are none available.
 
+As a lover of bicycles,
+so that i can control the storage of bikes,
+I would like docking stations to accept not more than their capacity.
+
 AT COMPLETIONG: PROGRESS OF SOLVING THE USER STORIES, HOW FAR DID I GET IN SOLVING THEM?
 
 ### Problem solving - workings
