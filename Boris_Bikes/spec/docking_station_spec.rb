@@ -7,6 +7,8 @@ describe DockingStation do
     end
 
     it 'responds to release bike' do
+      bike = double(Bike.new)
+      subject.dock(bike)
       expect(subject).to respond_to(:release_bike)
     end
   end
@@ -16,18 +18,36 @@ describe DockingStation do
       expect(subject).to respond_to(:dock).with(1).argument
     end
 
+    it 'has a default capacity' do
+      expect(subject.capacity).to eq(DockingStation::DEFAULT_CAPACITY)
+    end
+
     it 'raises an error when full' do
-      DockingStation::DEFAULT_CAPACITY.times { subject.dock(Bike.new) }
-      expect { subject.dock(Bike.new) }.to raise_error('Docking Station full')
+      bike = double(Bike.new)
+      DockingStation::DEFAULT_CAPACITY.times { subject.dock(bike) }
+      expect { subject.dock(bike) }.to raise_error('Docking Station full')
     end
   end
 
-  it 'has a default capacity' do
-    expect(subject.capacity).to eq(DockingStation::DEFAULT_CAPACITY)
-  end
+  describe '#capacity' do
+    it 'capacity raises a full error if exceeded' do
+      bike = double(Bike.new)
+      subject.capacity.times { subject.dock(bike) }
+      expect { subject.dock(bike) }.to raise_error('Docking Station full')
+    end
 
-  it 'capacity can be changed' do
-    subject.capacity = 25
-    expect(subject.capacity).to eq(25)
+    it 'allows capacity to be updated when you want, not just at initialize' do
+      bike = double(Bike.new)
+      subject.capacity = 25
+      24.times { subject.dock(bike) }
+      expect { subject.dock(bike) }.not_to raise_error
+    end
+
+    it 'Raise an error if exceed the new capactity' do
+      bike = double(Bike.new)
+      subject.capacity = 25
+      25.times { subject.dock(bike) }
+      expect { subject.dock(bike) }.to raise_error('Docking Station full')
+    end
   end
 end

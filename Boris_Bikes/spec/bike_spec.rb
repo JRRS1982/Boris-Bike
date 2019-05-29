@@ -1,7 +1,8 @@
 require './lib/bike'
 
 describe Bike do
-  it 'is expected to respond to working?' do
-    expect(subject).to respond_to(:working?)
+  it 'can be reported as broken' do
+    subject.report_broken
+    expect(subject).to be_broken
   end
 end
