@@ -1,4 +1,6 @@
 class DockingStation
+  DEFAULT_CAPACITY = 20
+  
   def initialize
     @bikes = []
   end
@@ -18,7 +20,7 @@ class DockingStation
   private
 
   def full?
-    @bikes.count >= 20
+    @bikes.count >= DEFAULT_CAPACITY
   end
 
   def empty?
