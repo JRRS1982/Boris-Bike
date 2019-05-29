@@ -44,6 +44,10 @@ As a lover of bicycles,
 so that i can control the storage of bikes,
 I would like docking stations to accept not more than their capacity.
 
+As a system administrator,
+so that i can plan the distribution of bikes,
+I would like docking stations to have a default capacity of 20 bikes.
+
 AT COMPLETIONG: PROGRESS OF SOLVING THE USER STORIES, HOW FAR DID I GET IN SOLVING THEM?
 
 ### Problem solving - workings
