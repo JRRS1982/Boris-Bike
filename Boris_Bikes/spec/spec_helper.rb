@@ -18,6 +18,8 @@ require 'simplecov'
 require 'simplecov-console'
 SimpleCov.start
 require 'rspec'
+SimpleCov.formatter = SimpleCov::Formatter::Console
+
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate

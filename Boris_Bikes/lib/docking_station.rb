@@ -1,6 +1,7 @@
+# this is the object of a docking station, that should contain main logic
 class DockingStation
   DEFAULT_CAPACITY = 20
-  attr_reader :capacity
+  attr_accessor :capacity
 
   def initialize
     @bikes = []
@@ -20,6 +21,8 @@ class DockingStation
   end
 
   private
+
+  attr_reader :bikes
 
   def full?
     @bikes.count >= capacity
