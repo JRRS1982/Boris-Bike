@@ -7,9 +7,14 @@ describe DockingStation do
     end
 
     it 'responds to release bike' do
-      bike = double(Bike.new)
-      subject.dock(bike)
       expect(subject).to respond_to(:release_bike)
+    end
+
+    it 'raises an error if the bike has been reported as broken' do
+      bike = Bike.new
+      bike.report_broken
+      subject.dock(bike)
+      expect { subject.release_bike }.to raise_error('Bike is broken')
     end
   end
 
