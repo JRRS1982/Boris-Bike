@@ -36,6 +36,10 @@ As a lover of bicycles,
 I dont want to be given a faulty bike from the docking station,
 so that I can actually use it as intended.
 
+As a lover of bicycles,
+so that i am not charged unneccsessarily,
+I dont want to be given a bike if there are none available.
+
 AT COMPLETIONG: PROGRESS OF SOLVING THE USER STORIES, HOW FAR DID I GET IN SOLVING THEM?
 
 ### Problem solving - workings
