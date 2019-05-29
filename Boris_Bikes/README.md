@@ -1,26 +1,29 @@
 # Project title
 
-Boris Bikes is the week 1 afternoon project of the Makers Academy Bootcamp.
+Boris Bikes is the week 1 afternoon project of the Makers Academy Bootcamp. 
 
-### Motivation / Approach
+## Motivation / Approach
 
 This project was made to develop my Object Orientated Programming Skills, and to
 practice the base skills in Ruby, including encapsulations, mocking / stubbing
 and associated test driven development.
 
-I decided to redo the project as I decided that it would be good practice to
-repeat the earlier attempts (which were pair programmed) by myself at a later
-stage to see how far I have come and to complete the project hopefully to a
-better standard.
+I decided to redo the project in May 2019 as I decided that it would be good
+practice to repeat the earlier attempts (which were pair programmed) by myself
+and to recap this project which demostrates many elements of object orientated
+programming.
 
 ### Build status
 
-The project is currently under construction, it may not be completed as this is
-a practice exercise.
+As at 29th May 2019, I consider the file closed, it is a practice exercise
+and having been through the majority of it I have other pressing concerns. I may
+return to the project at a later date to add some more stories and provide
+better test coverage / encapsulation.
 
 ### Screenshots / UML / Notes / Diagrams
 
-Should there be any images, please find them in the images folder of the project.
+A class diagram and notes were drawn on paper for the project, but nothing has
+been uploaded to the project folder.
 
 ### User Stories
 
@@ -64,7 +67,9 @@ As a maintainer of the system,
 So that I can manage broken bikes and not disappoint users,
 I'd like docking stations to accept returning bikes (broken or not).
 
-AT COMPLETIONG: PROGRESS OF SOLVING THE USER STORIES, HOW FAR DID I GET IN SOLVING THEM?
+As at 29th May 2019 all the tests are passing and I think that all user stories
+have been covered, although with more time I would be able to write some better
+tests.
 
 ### Problem solving - workings
 
@@ -94,7 +99,9 @@ attached spec files for details of the testing that was carried out.
 Please find attached a gem file listing those gems for installation, use the
 following to run the file:
 
-1) ruby app.rb
+1) This is a terminal run app, please use regular terminal commands to create
+objects and play around with the code. 
+2) rspec - will run the test suite.
 
 ## API Use
 
@@ -102,24 +109,12 @@ No API used in this project.
 
 ## Reflection / further development
 
-WHAT FURTHER FEATURES WOULD I ADD IF I HAD MORE TIME?
+I would better encapsulate the bike object, and write more user stories,
+covering elements such as payment for the bike or creating a user and / or
+multiple docking stations for bikes to be returned to.
 
 ## Credits / team members
 
 No contributions are required at this time, as this is a training exercise.
 
 This is a solo project that does not require referencing to any exteral source.
-
-MODEL IN A CLASS DIAGRAM NOW
-
-NOW CREATE A FEATURE TEST FIRST
-
-describe 'Greeter' do
-  it 'greets Rico' do
-    expect(greet('Rico')).to eq('Hello, Rico, how are you today?')
-  end
-end
-
-REMEMBER TO ADD A LIB AND FEATURES FOLDERS
-AND REQUIRE RELATIVE IN THE SPEC HELPER
-AND REQUIRE THE SPEC HELPER IN THE SPEC FILE
