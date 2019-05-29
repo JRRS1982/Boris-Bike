@@ -48,6 +48,10 @@ As a system administrator,
 so that i can plan the distribution of bikes,
 I would like docking stations to have a default capacity of 20 bikes.
 
+As a system administrator,
+so that busy areas can be serviced more effectively,
+I would like to specify a larger capacity of bikes when necessary.
+
 AT COMPLETIONG: PROGRESS OF SOLVING THE USER STORIES, HOW FAR DID I GET IN SOLVING THEM?
 
 ### Problem solving - workings
